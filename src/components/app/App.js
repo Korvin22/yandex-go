@@ -1,13 +1,17 @@
 import React from 'react';
-
+import Header from '../Header/Header';
+/* import Advantages from '../Advantages/Advantages';
+import Events from '../Events/Events';
+import Subscription from '../Subscription/Subscription';
+import Footer from '../Footer/Footer'; */
 import styles from './App.module.css';
-
 
 function App() {
 
   return (
     <div className={styles.app}>
-      <p>1</p>
+      <Header />
+
     </div>
   );
 }
